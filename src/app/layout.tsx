@@ -7,7 +7,7 @@ const sofia = Sofia_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Ishini SAAS',
-  description: 'Ishini Wejensinghe\'s SAAS App',
+  description: "Ishini Wejensinghe's SAAS App",
 }
 
 export default function RootLayout({
@@ -17,7 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn('min-h-screen font-sans antialiased grainy',sofia.className)}>{children}</body>
+      <body
+        className={cn(
+          'grainy min-h-screen font-sans antialiased',
+          sofia.className,
+        )}>
+        {children}
+      </body>
     </html>
   )
 }
