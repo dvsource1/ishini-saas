@@ -48,3 +48,19 @@
     --ring: 142.4 71.8% 29.2%;
   }
 }
+
+.bg-cool {
+  @apply bg-gradient-to-br from-pink-300 via-green-100 to-green-300;
+}
+
+.text-cool-pink {
+  @apply bg-gradient-to-br from-pink-600 via-pink-500 to-pink-400 bg-clip-text text-transparent;
+}
+
+.text-cool-blue {
+  @apply bg-gradient-to-br from-blue-600 via-blue-500 to-blue-400 bg-clip-text text-transparent;
+}
+
+.text-cool-green {
+  @apply bg-gradient-to-br from-green-600 via-green-500 to-green-400 bg-clip-text text-transparent;
+}

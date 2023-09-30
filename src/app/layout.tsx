@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'grainy min-h-screen font-sans antialiased',
+          'bg-cool min-h-screen font-sans antialiased',
           sofia.className,
         )}>
         {children}

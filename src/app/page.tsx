@@ -15,8 +15,8 @@ export default function Home() {
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
           Challage your{' '}
-          <span className="font-extrabold text-pink-600">Science</span>{' '}
-          <span className="text-blue-600">knowledge</span> in seconds.
+          <span className="text-cool-pink bg-clip-text">Science</span>{' '}
+          <span className="text-cool-blue">knowledge</span> in seconds.
         </h1>
 
         <p className="mt-5 max-w-prose text-stone-700 sm:text-lg">
