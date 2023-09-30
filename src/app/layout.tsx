@@ -2,6 +2,7 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Sofia_Sans } from 'next/font/google'
+import Navbar from '@/components/Navbar'
 
 const sofia = Sofia_Sans({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
           'bg-cool min-h-screen font-sans antialiased',
           sofia.className,
         )}>
+        <Navbar />
         {children}
       </body>
     </html>
