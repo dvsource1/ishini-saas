@@ -66,6 +66,7 @@
 }
 
 /* Clerk Overides */
-.cl-internal-b3fm6y {
+.cl-internal-b3fm6y,
+.cl-userButtonPopoverFooter {
   @apply hidden;
 }
