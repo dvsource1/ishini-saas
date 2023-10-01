@@ -3,6 +3,7 @@ import Link from 'next/link'
 import MaxWidthWrapper from './MaxWidthWrapper'
 import { Button, buttonVariants } from './ui/button'
 import { SignInButton, SignUpButton, UserButton, useAuth } from '@clerk/nextjs'
+import MobileNav from './MobileNav'
 
 type NavbarProps = {}
 
@@ -16,6 +17,8 @@ const Navbar = ({}: NavbarProps) => {
           <Link href="/" className="z-40 flex font-semibold">
             <span>Ishini.</span>
           </Link>
+
+          <MobileNav isSignedIn={isLoaded && isSignedIn} />
 
           <div className="hidden items-center space-x-4 sm:flex">
             {isLoaded && !isSignedIn && (
