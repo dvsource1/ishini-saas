@@ -22,7 +22,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-5 max-w-prose text-stone-700 sm:text-lg">
-          Welcome to our interactive A/L Science Knowledge Testing App! Dive
+          Welcome to our interactive O/L Science Knowledge Testing App! Dive
           into a smart and friendly learning experience that will put your
           science knowledge to the test. Explore a world of quizzes and
           challenges designed to help you excel in your A/L science studies.
