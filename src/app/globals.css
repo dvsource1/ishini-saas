@@ -64,3 +64,8 @@
 .text-cool-green {
   @apply bg-gradient-to-br from-green-600 via-green-500 to-green-400 bg-clip-text text-transparent;
 }
+
+/* Clerk Overides */
+.cl-internal-b3fm6y {
+  @apply hidden;
+}
